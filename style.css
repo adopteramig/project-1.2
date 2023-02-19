@@ -3,9 +3,14 @@ body {
 }
 
 .logo {
-    color: white;
-    font-size: 28px;
+    color: red;
+    font-size: 38px;
+     
 }
+a{
+    text-decoration: none;
+    color: red;
+    }
 
 nav {
     display: flex;
@@ -54,7 +59,13 @@ button:hover {
     cursor: pointer;
 
 }
-
-h2 {
-    color: white;
+ 
+.white-box {
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 1000px;
+    text-align: center;
+    margin: auto;
+    
 }
