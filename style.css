@@ -4,7 +4,7 @@ body {
 }
 
 .logo {
-    color: blue;
+    color: red;
     font-size: 38px;
      
 }
@@ -63,10 +63,75 @@ button:hover {
  
 .white-box {
     background-color: white;
-    padding: 20px;
-    width: 50%;
-    height: 1000px;
+    width: 1024px;
+    height: 500px;
     text-align: center;
     margin: auto;
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    
+    
     
 }
+.quotes-box {
+    background-color: white;
+    width: 1024px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    padding: 3em;
+    grid-gap: 2em;
+    
+    
+    
+}
+
+span {
+    font-weight: bold;
+    position: relative;
+    margin-left: 15px;  
+}
+ 
+
+@media (max-width: 1023px) {
+    .quotes-box {
+      width: 50%;
+    }
+}
+@media (max-width: 1023px) {
+    .white-box {
+      width: 50%;
+    }
+}
+
+ 
+
+  .quote {
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 550px) {
+    .quotes-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
+
+  @media (min-width: 750px) {
+    .quotes-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+  }
+
+  @media (min-width: 950px) {
+    .quotes-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+  }
+  
